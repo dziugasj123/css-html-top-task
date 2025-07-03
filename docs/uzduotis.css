@@ -3,7 +3,9 @@
 }
 
 html, body{
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* hides the extra white space */
 }
 
 .container{
@@ -62,13 +64,12 @@ header {
     flex: 1;
 }
 
-.informacija{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    background-color: var(--primary-color);
+.informacija {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-auto-rows: min-content; /* allows rows to grow */
+  background-color: var(--primary-color);
+  padding-bottom: 2rem; /* optional, for spacing at the bottom */
 }
 
 .informacija_projects {
