@@ -5,7 +5,7 @@
 html, body{
   margin: 0;
   padding: 0;
-  overflow: auto; /* hides the extra white space */
+  overflow: auto; 
 }
 
 .container{
@@ -67,9 +67,9 @@ header {
 .informacija {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-auto-rows: min-content; /* allows rows to grow */
+  grid-auto-rows: min-content; 
   background-color: var(--primary-color);
-  padding-bottom: 2rem; /* optional, for spacing at the bottom */
+  padding-bottom: 2rem; 
 }
 
 .informacija_projects {
