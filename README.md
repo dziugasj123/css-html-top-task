@@ -1,5 +1,5 @@
 ## Project Preview
 
-![screenshot](img/project.png)
+![screenshot](/task/img/project.png)
 
 ## Live Demo
