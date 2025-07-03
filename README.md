@@ -1,6 +1,6 @@
 ## Project Preview
 
-![screenshot](/task/img/project.png)
+![screenshot](/docs/img/project.png)
 
 ## Live Demo
-[Click here to open the live version](https://dziugasj123.github.io/css-html-top-task/task/)
+[Click here to open the live version](https://dziugasj123.github.io/css-html-top-task/docs/)
